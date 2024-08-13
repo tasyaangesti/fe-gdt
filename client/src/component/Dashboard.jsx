@@ -3,6 +3,7 @@ import Carousel from "./section/Carousel";
 import Kategori from "./section/Kategori";
 import Topup from "./section/Topup";
 import Banner from "./section/Banner";
+import CardProduct from "./section/Card";
 
 const items = [
   "Pulsa",
@@ -60,8 +61,9 @@ export function Dashboard() {
         nominalOptions={nominalOptions}
         paketDataOptions={paketDataOptions}
       />
-      
+
       <Banner />
+      <CardProduct />
     </div>
   );
 }

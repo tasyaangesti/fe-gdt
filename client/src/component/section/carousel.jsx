@@ -51,20 +51,7 @@ export default function Carousel({
               onClick={goToPrev}
               aria-label="Previous Slide"
             >
-              <svg
-                className="w-6 h-6 text-white"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M15 19l-7-7 7-7"
-                />
-              </svg>
+              <img src="/icon-arrow-left.png" alt="" />
             </button>
             <button
               type="button"
@@ -72,20 +59,7 @@ export default function Carousel({
               onClick={goToNext}
               aria-label="Next Slide"
             >
-              <svg
-                className="w-6 h-6 text-white"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M9 5l7 7-7 7"
-                />
-              </svg>
+              <img src="/icon-arrow-rigt.png" alt="" />
             </button>
           </div>
         </div>

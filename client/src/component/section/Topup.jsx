@@ -46,7 +46,7 @@ export default function Topup({ items, nominalOptions, paketDataOptions }) {
     <div className="max-w-7xl mx-auto bg-white mt-10 rounded-sm p-4">
       {/* header */}
       <div className="">
-        <h1 className="text-black font-semibold">Top Up dan Tagihan</h1>
+        <h1 className="text-black font-semibold text-xl">Top Up dan Tagihan</h1>
       </div>
 
       {/* sub title */}

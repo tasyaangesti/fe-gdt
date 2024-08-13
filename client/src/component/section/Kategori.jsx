@@ -5,7 +5,9 @@ export default function Kategori() {
       <div className="max-w-7xl mx-auto bg-[#FFFFFF] mt-10 rounded-sm">
         {/* title */}
         <div className="pt-3 pl-3">
-          <h1 className="text-black font-semibold md:block">Kategori</h1>
+          <h1 className="text-black font-semibold md:block text-xl">
+            Kategori
+          </h1>
         </div>
 
         {/* badges */}
