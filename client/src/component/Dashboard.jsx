@@ -1,5 +1,6 @@
 import { useState } from "react";
-import Carousel from "./section/carousel";
+import Carousel from "./section/Carousel";
+import Kategori from "./section/Kategori";
 
 export function Dashboard() {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -29,6 +30,8 @@ export function Dashboard() {
         goToPrev={goToPrev}
         goToSlide={goToSlide}
       />
+
+      <Kategori/>
     </div>
   );
 }
