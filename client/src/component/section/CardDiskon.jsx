@@ -1,4 +1,4 @@
-export default function CardProduct() {
+export default function CardProductDiskon() {
   const products = [
     {
       name: "Nama Produk",
